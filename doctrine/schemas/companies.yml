@@ -1,0 +1,9 @@
+---
+Company:
+    tableName: companies
+    columns: 
+        id:
+            type: integer(4)
+            primary: true
+            autoincrement: true
+            unsigned: true

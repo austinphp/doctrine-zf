@@ -1,0 +1,7 @@
+#!/usr/local/zend/bin/php
+<?php
+
+chdir(dirname(__FILE__));
+include('doctrine.php');
+
+?>

@@ -1,0 +1,18 @@
+---
+Offer:
+    tableName: offers
+    columns: 
+        id:
+            type: integer(4)
+            primary: true
+            autoincrement: true
+            unsigned: true
+        company_id:
+            type: integer(4)
+            unsigned: true
+        name:
+            type: string(255)
+            notnull: true
+        foo:
+            type: integer(4)
+            
