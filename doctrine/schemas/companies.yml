@@ -7,3 +7,5 @@ Company:
             primary: true
             autoincrement: true
             unsigned: true
+        name:
+            type: string(255)

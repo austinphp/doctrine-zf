@@ -13,6 +13,6 @@ Offer:
         name:
             type: string(255)
             notnull: true
-        foo:
-            type: integer(4)
-            
+    relations:
+        Company:
+            foreignType: one
